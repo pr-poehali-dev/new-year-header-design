@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,17 +15,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 214 100% 50%;
+    --primary: 215 28% 17%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 43 100% 57%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 17% 95%;
+    --secondary-foreground: 215 28% 17%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 17% 95%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 43 100% 57%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -36,10 +36,10 @@
 
     --radius: 0.5rem;
 
-    --winter-blue-dark: 214 80% 25%;
-    --winter-blue-light: 199 89% 48%;
+    --winter-blue-dark: 215 28% 17%;
+    --winter-blue-light: 210 20% 30%;
     --snow-white: 0 0% 100%;
-    --frost-overlay: 199 60% 90%;
+    --gold-accent: 38 92% 50%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -97,7 +97,8 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.01em;
   }
 
   h1,
@@ -106,6 +107,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
 }
